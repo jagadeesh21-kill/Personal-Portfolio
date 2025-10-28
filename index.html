@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Jagadeesh Meenige | Software Developer</title>
+  <meta name="description" content="Jagadeesh Meenige — Fresher Software Developer. Java, JavaScript, SQL, HTML, CSS, C" />
+
+  <!-- Font Awesome (free CDN) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="" crossorigin="anonymous" />
+
+  <!-- Styles & script -->
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+
+  <!-- EmailJS SDK -->
+  <script src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <div class="brand">
+        <div class="logo">JM</div>
+        <div class="brand-text">Jagadeesh <span class="accent">Meenige</span></div>
+      </div>
+
+      <nav class="links">
+        <ul class="navlist">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="actions">
+          <!-- <button id="themeToggle" title="Toggle theme"><i class="fas fa-sun"></i></button> -->
+          <a class="social" href="https://www.linkedin.com/in/jagadeesh1719" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+          <a class="social" href="https://github.com/jagadeesh21-kill" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+          <a class="social" href="mailto:jagadeesh1719@gmail.com" target="_blank" title="Send me an Email">
+  <i class="fas fa-envelope"></i>
+</a>
+
+          <a class="resume" href="Jagadeesh_Resume.pdf" download>Download Resume</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="container hero-inner">
+      <div class="hero-left" data-animate>
+        <h1>Hi — I'm <span class="accent">Jagadeesh Meenige</span></h1>
+        <p class="lead">Fresher Software Developer focused on building reliable, maintainable software. Strong fundamentals in Java, JavaScript, SQL, C, HTML & CSS.</p>
+
+        <div class="ctas">
+          <a class="btn primary" href="#projects">See Projects</a>
+          <a class="btn outline" href="Jagadeesh_Rsume.pdf" download>Download Resume</a>
+          <button class="btn ghost" onclick="openPopup()">Hire Me</button>
+        </div>
+
+        <div class="hero-tech" aria-hidden="true">
+          <span>HTML</span><span>CSS</span><span>JS</span><span>Java</span><span>SQL</span><span>C</span>
+        </div>
+      </div>
+
+      <div class="hero-right" data-animate>
+        <div class="profile-wrap">
+          <img src="image.png" alt="Jagadeesh photo" class="profile" />
+          <div class="profile-shadow"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section about" data-animate>
+    <div class="container about-inner">
+      <div class="about-photo">
+        <img src="image.png" alt="Jagadeesh photo small" />
+      </div>
+      <div class="about-text">
+        <h2>About Me</h2>
+      <p>Hello! I'm Jagadeesh Meenige, a passionate and dedicated Computer Science graduate with a strong interest in technology and software development.From an early stage in my academic life, I have been fascinated by how technology can transform ideas into real-world solutions.
+I completed my Bachelor’s degree in Computer Science and Engineering from [Your College Name], where I built a strong foundation in coding, database management, and web technologies. During my academic journey, I worked on several projects that helped me understand both the creative and logical sides of programming.
+These experiences strengthened my technical skills and improved my ability to work in a structured, problem-solving environment. I am skilled in HTML, CSS, JavaScript, Java, SQL, and C, and I enjoy creating interactive and responsive web applications.
+In every project I take on, I focus on clean code, user-friendly design, and efficient performance.My goal is not just to write code — but to create something valuable, impactful, and user-centric.
+I am currently looking for an opportunity to join a forward-thinking company where I can contribute my skills, grow with the team, and make a positive impact. </p>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section" data-animate>
+    <div class="container">
+      <h2>Skills</h2>
+      <p class="section-lead" style="color: white;">Core languages & technologies I use regularly.</p>
+
+      <div class="skills-grid">
+        <!-- replace SVG paths or files with your icons if you have them -->
+        <div class="skill"><img src="images/icons/html.png" alt="HTML" /><span>HTML</span></div>
+        <div class="skill"><img src="images/icons/css.png" alt="CSS" /><span>CSS</span></div>
+        <div class="skill"><img src="images/icons/js.png" alt="JS" /><span>JavaScript</span></div>
+        <div class="skill"><img src="images/icons/java.png" alt="Java" /><span>Java</span></div>
+        <div class="skill"><img src="images/icons/sql.png" alt="SQL" /><span>SQL</span></div>
+        <div class="skill"><img src="images/icons/c.png" alt="C" /><span>C</span></div>
+      </div>
+    </div>
+  </section>
+  <!-- Education Section -->
+<section id="education" class="section">
+  <h2 class="section-title"><i class="fas fa-graduation-cap"></i> Education</h2>
+  <div class="education-container">
+
+    <div class="edu-card">
+      <h3>Bachelor of Computer Science</h3>
+      <p class="edu-institute">Pace Institute of Technology & Sciences, Ongole</p>
+      <p class="edu-year">2021 – 2025</p>
+      <p class="edu-desc">Focused on software development, algorithms, and modern web technologies. Completed several academic projects using Java, SQL, and JavaScript.</p>
+    </div>
+
+    <div class="edu-card">
+      <h3>Intermediate (MPC)</h3>
+      <p class="edu-institute">Sadhana Junior College, Markapur</p>
+      <p class="edu-year">2019 – 2021</p>
+      <p class="edu-desc">Studied Mathematics, Physics, and Chemistry. Built strong analytical and problem-solving skills.</p>
+    </div>
+
+    <div class="edu-card">
+      <h3>High School</h3>
+      <p class="edu-institute">Spandana High School</p>
+      <p class="edu-year">2018 – 2019</p>
+      <p class="edu-desc">Completed secondary education with distinction in science and computer fundamentals.</p>
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- PROJECTS (placeholders — add your projects manually) -->
+  <section id="projects" class="section" data-animate>
+    <div class="container">
+      <h2>Projects</h2>
+      <p class="section-lead" style="color: wheat;">Click "GitHub" to inspect the source.</p>
+
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <article class="project">
+          <img src="images/project1.png" alt="furniture online website" />
+          <div class="project-body">
+            <h3>Furniture online website</h3>
+            <p>HTML provides the basic structure and layout of the website, including sections like the home page, product gallery, about page, and contact form.
+CSS is used to enhance the appearance by applying colors, layouts, and responsive design, ensuring that the site looks attractive and works well on all devices.
+JavaScript adds interactivity through dynamic features such as image sliders, product filters, search functionality, and a shopping cart system.
+
+This website allows users to browse, view, and explore a wide range of furniture items such as sofas, chairs, tables, and beds with detailed descriptions and prices.
+Users can easily navigate through different categories and add products to their wishlist or cart.
+</p>
+            <div class="project-links">
+              <!-- <a class="btn-sm" href="#" target="_blank" rel="noopener">Live Demo</a> -->
+              <a class="btn-sm gh" href="https://github.com/jagadeesh21-kill/Furniture-Website" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project">
+          <img src="images/project2.png" alt="Project 2" />
+          <div class="project-body">
+            <h3>Personal Portfolio</h3>
+            <p>The Personal Portfolio Website is created using HTML, CSS, and JavaScript to showcase an individual’s skills, projects, education, and achievements.
+HTML structures the content, CSS gives it an attractive and responsive design, and JavaScript adds interactivity like animations and smooth scrolling. It helps create a professional online presence for students or developers to highlight their work and career goals.
+This website includes sections such as Home, About, Skills, Projects, and Contact, making it easy for visitors to learn more about the individual.
+It provides a platform to display both technical and creative abilities in an organized and visually appealing format.
+</p>
+            <div class="project-links">
+              <!-- <a class="btn-sm" href="#" target="_blank" rel="noopener">Live Demo</a> -->
+              <a class="btn-sm gh" href="https://github.com/jagadeesh21-kill/Personal-Portfolio" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project">
+          <img src="images/project3.png" alt="Project 3" />
+          <div class="project-body">
+            <h3>Deduplication of Textual data in a cloud environment</h3>
+            <p>Deduplication of textual data in a cloud environment is a technique used to remove duplicate copies of data and store only one unique instance. This helps in reducing storage space, improving efficiency, and lowering cloud storage costs.
+
+In this process, the system identifies and eliminates redundant text files or repeated content before storing data in the cloud. It uses hashing algorithms and data comparison techniques to detect duplicates.
+
+Overall, data deduplication enhances storage optimization, data transfer speed, and cloud performance, making it a key method for managing large-scale textual data efficiently..</p>
+            <div class="project-links">
+              <!-- <a class="btn-sm" href="#" target="_blank" rel="noopener">Live Demo</a> -->
+              <a class="btn-sm gh" href="https://github.com/jagadeesh21-kill/DEDUCT-A-Secure-Deduplication-of-Textual-Data-in-Cloud-Environment" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+ <!-- ===== Internships & Certificates Section ===== -->
+<section id="experience" class="experience-section">
+  <div class="experience-content">
+    <h2>Internships & Certificates</h2>
+
+    <!-- Internship 1 -->
+    <div class="internship">
+      <h3>💼 Internship 1</h3>
+      <div class="internship-item">
+        <h4>Full Stack Development with Java – 42 Learn</h4>
+        <p class="duration">May 2024 – July 2024</p>
+        <p>
+          Completed a <strong>Full Stack Development with Java</strong> internship at 
+          <strong>PACE Institute of Technology and Sciences</strong>.  
+          Worked with technologies like HTML, CSS, JavaScript, Java, and MySQL to build dynamic web applications.  
+          Improved my understanding of backend integration, REST APIs, and database management.
+        </p>
+        <div class="certificate-img">
+          <img style="width: 350px;" height="400px"  src="images/Internship&certificates/42IntershipCertificate.png" alt="Full Stack Internship Certificate">
+        </div>
+      </div>
+    </div>
+
+    <!-- Internship 2 -->
+    <div class="internship">
+      <h3>💻 Internship 2</h3>
+      <div class="internship-item">
+        <h4>Data Science Master Virtual Internship – AICTE & EduSkills</h4>
+        <p class="duration">January 2025 – March 2025</p>
+        <p>
+          Completed a <strong>Data Science Master Virtual Internship</strong> supported by 
+          <strong>ALTAIR</strong> under <strong>AICTE – EduSkills</strong>.  
+          Learned to analyze and visualize datasets using Python libraries such as Pandas, NumPy, and Matplotlib.  
+          Explored supervised and unsupervised machine learning models and gained practical experience with real-world datasets.
+        </p>
+        <div class="certificate-img">
+          <img  style="width: 350;" height="400"  src="images/Internship&certificates/masterDataScienceCertificate.png" alt="Data Science Internship Certificate">
+        </div>
+      </div>
+    </div>
+
+     <!-- Certificates Section -->
+    <div class="certificates">
+      <h3>📜 Additional Certificates</h3>
+      <ul>
+        <li><strong>Java Programming</strong> – Spoken Tutorial</li>
+        <!-- <li><strong>Web Development Fundamentals</strong> – Udemy</li> -->
+        <!-- <li><strong>SQL for Data Management</strong> – HackerRank</li> -->
+        <li><strong>Python for Beginners</strong> – Infosys Spring board</li>
+        <li><strong>JavaScript</strong>- Simple Learn </li>
+        <li><strong>c</strong>- codetantra</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+  <!-- CONTACT -->
+ <section id="contact" class="contact section">
+  <h2>Contact Me</h2>
+  <p>Feel free to reach out if you’d like to collaborate or discuss opportunities!</p>
+
+  <div class="contact-info">
+    <div class="contact-item">
+      <i class="fas fa-envelope"></i>
+      <a href="mailto:jagadeesh1719@gmail.com">jagadeesh1719@gmail.com</a>
+    </div>
+    <div class="contact-item">
+      <i class="fas fa-phone-alt"></i>
+      <a href="tel:+919876543210">+91 90141 70561</a>
+    </div>
+    <div class="contact-item">
+      <i class="fab fa-linkedin"></i>
+      <a href="https://linkedin.com/in/jagadeesh1719" target="_blank">LinkedIn</a>
+    </div>
+    <div class="contact-item">
+      <i class="fab fa-github"></i>
+      <a href="https://github.com/jagadeesh21-kill" target="_blank">GitHub</a>
+    </div>
+  </div>
+
+  <button class="btn primary" id="hireBtn">Hire Me</button>
+</section>
+
+
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> Jagadeesh Meenige</div>
+      <div class="social-small">
+        <a href="https://www.linkedin.com/in/jagadeesh1719" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/jagadeesh21-kill" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- HIRE-ME POPUP -->
+  <div class="popup" id="popup" aria-hidden="true">
+    <div class="popup-card" role="dialog" aria-modal="true" aria-labelledby="popupTitle">
+      <button class="popup-close" aria-label="Close" onclick="closePopup()">&times;</button>
+      <h3 id="popupTitle" style="color: gray;">Hire Me</h3>
+      <p class="muted" style="color: gray;">Send a message and I'll reply soon.</p>
+
+      <form id="hireForm">
+        <input type="text" name="from_name" id="from_name" placeholder="Your name" required />
+        <input type="email" name="reply_to" id="reply_to" placeholder="Your email" required />
+        <input type="text" name="subject" id="subject" placeholder="Subject" required />
+        <textarea name="message" id="message" rows="5" placeholder="Tell me about the opportunity" required></textarea>
+
+        <div class="form-actions">
+          <button class="btn primary" type="submit">Send Message</button>
+          <button class="btn outline" type="button" onclick="closePopup()">Cancel</button>
+        </div>
+
+        <div id="formStatus" class="form-status" aria-live="polite"></div>
+      </form>
+    </div>
+  </div>
+
+</div>
+
+
+
+</body>
+</html>
